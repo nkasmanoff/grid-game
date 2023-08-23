@@ -14,19 +14,17 @@ const GridInterior = ({ topicX, topicY }) => {
     const handleClose = () => setOpen(false);
 
     const selectedDependencies = useMemo(() => {
-        console.log('selection', selection)
-        console.log('coutnries', countries)
-
         const filteredDependencies = countries.filter(item => item.value === selection?.value)
-        console.log('filtered dependencies', filteredDependencies)
         const values = filteredDependencies.map(item => item.label)
-        console.log('values', values)
+
         return values
     }, [selection] 
 
     )
 
     useMemo(() => { 
+
+
         if (selectedDependencies.includes(topicX) && selectedDependencies.includes(topicY)) {
 
             setIsSelectionCorrect(true)

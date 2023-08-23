@@ -11,8 +11,8 @@ export const countries = [
     {'label': 'Africa', 'value': 'Algeria'},
     {'label': 'Africa', 'value': 'Nigeria'},
     {'label': 'Africa', 'value': 'Mayotte'},
-    {'label': 'North America', 'value': 'United States'},
-    {'label': 'North America', 'value': 'Sint Maarten'},
+    {'label': 'N. America', 'value': 'United States'},
+    {'label': 'N. America', 'value': 'Sint Maarten'},
     {'label': 'Europe', 'value': 'Russia'},
     {'label': 'Europe', 'value': 'Monaco'},
 ]
