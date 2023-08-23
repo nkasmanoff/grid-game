@@ -8,14 +8,13 @@ export default function ItemSelector({setSelection}) {
     setSelection(value)
   }
 
-  // fetch all countries from https://restcountries.com/v3.1/all
+
   const [countries, setCountries] = React.useState([]);
 
   React.useEffect(() => {
     fetch('https://restcountries.com/v3.1/all')
       .then((response) => response.json())
       .then((data) => {
-        console.log(data)
         setCountries(data.map(country => {
           return {
             label: country.name.common,

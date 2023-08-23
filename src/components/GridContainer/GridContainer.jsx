@@ -18,7 +18,7 @@ const GridContainer = () => {
 
         // shuffle the array
         const yTopics = ['Largest Pop.', 'Largest Area','Highest Pop. Density']
-        const xTopics = ['Africa', 'Europe', 'North America']
+        const xTopics = ['Africa', 'Europe', 'N. America']
         yTopics.sort(() => Math.random() - 0.5)
         xTopics.sort(() => Math.random() - 0.5)
 
