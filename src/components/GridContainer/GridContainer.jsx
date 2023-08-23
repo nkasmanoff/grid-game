@@ -77,7 +77,7 @@ const GridContainer = () => {
                         <GridInterior topicX={topicX2} topicY={topicY2} />
                     </Grid>
                     <Grid item xs={0}>
-                        <GridInterior topicX={topicX3} topicY={topicY3} />
+                        <GridInterior topicX={topicX2} topicY={topicY3} />
                     </Grid>
                 </Grid>
                 <Grid item container spacing={.5} justifyContent={'space-evenly'} alignItems={'center'}>
