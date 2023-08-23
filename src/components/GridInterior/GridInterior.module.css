@@ -1,0 +1,36 @@
+.selectionModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 20%;
+
+  position: fixed;
+  left: 40%;
+  top: 5%;
+}
+
+
+.doneBox {
+  background-color: green;
+}
+
+.doneBox:hover {
+  background-color: darkgreen;
+}
+
+.selectBox {
+  background-color: whitesmoke;    
+}
+
+.selectBox:hover {
+  background-color: whitesmoke;
+}

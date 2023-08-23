@@ -1,0 +1,18 @@
+export const countries = [
+    {'label': 'Highest Pop. Density', 'value': 'Mayotte'},
+    {'label': 'Highest Pop. Density', 'value': 'Monaco'},
+    {'label': 'Highest Pop. Density', 'value': 'Sint Maarten'},
+    {'label': 'Largest Pop.', 'value': 'Nigeria'},
+    {'label': 'Largest Pop.', 'value': 'Russia'},
+    {'label': 'Largest Pop.', 'value': 'United States'},
+    {'label': 'Largest Area', 'value': 'Russia'},
+    {'label': 'Largest Area', 'value': 'United States'},
+    {'label': 'Largest Area', 'value': 'Algeria'},
+    {'label': 'Africa', 'value': 'Algeria'},
+    {'label': 'Africa', 'value': 'Nigeria'},
+    {'label': 'Africa', 'value': 'Mayotte'},
+    {'label': 'North America', 'value': 'United States'},
+    {'label': 'North America', 'value': 'Sint Maarten'},
+    {'label': 'Europe', 'value': 'Russia'},
+    {'label': 'Europe', 'value': 'Monaco'},
+]
