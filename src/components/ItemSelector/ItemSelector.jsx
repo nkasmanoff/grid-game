@@ -5,7 +5,6 @@ import Autocomplete from '@mui/material/Autocomplete';
 export default function ItemSelector({setSelection}) {
 
   const handleSetSelection = (event, value) => {
-    console.log(value)
     setSelection(value)
   }
 
